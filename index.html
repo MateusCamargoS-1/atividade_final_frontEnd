@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - Personagens</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img src="./assets/logo.jpg" alt="">
+        </a>
+    </header>
+    <main>
+        <section id="pesquisa">
+            <h1 class="titlePesquisa">API de Rick and Morty</h1>
+            <form id="formPesquisa">
+                <input type="text" name="pesquisa" placeholder="Pesquise">
+                <a href="#" class="linkLupa"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </form>
+        </section>
+        <section id="cards">
+            <ul id="listaCard">
+            </ul>
+        </section>
+        <img src="./assets/rickAndMorty.png" alt="" class="rickAndMorty">
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#">Personagens: <span id="personagens"></span></a>
+            <a href="#">localização: <span id="localizacao"></span></a>
+            <a href="#">Episódios: <span id="episodios"></span></a>
+        </nav>
+
+        <small>
+            Desenvolvido por: <a href="#">Mateus C. da Silva</a> em 2024
+        </small>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./axios/api.js"></script>
+    <script src="./axios/script.js"></script>
+    <script src="https://kit.fontawesome.com/57991f803a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

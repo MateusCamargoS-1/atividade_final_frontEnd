@@ -1,0 +1,175 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+header img {
+    width: 50px;
+    margin: 10px 0 10px 20px;
+}
+
+/* PESQUISA */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pesquisa .titlePesquisa {
+    color: #125713;
+    font-size: 3.4em;
+    margin: 25px 0 30px 0;
+    font-weight: 800;
+}
+
+#formPesquisa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#formPesquisa input {
+    padding: 8px 12px;
+    width: 600px;
+    border: 1px solid #b9b9b9;
+    border-radius: 8px;
+    transition: 0.01s ease-in-out;
+}
+
+#formPesquisa input:focus {
+    border: 1px solid #4add4cca;
+    outline: none; 
+}
+
+#formPesquisa a {
+    position: relative;
+    color: #125713c1;
+    align-self: center;
+    right: 30px;
+}
+
+/* CARDS */
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto 0 auto;
+}
+
+#cards #listaCard {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 130px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardInfo .tituloStatus h2{
+    color: #125713;
+    font-size: 1.1em;
+}
+
+.cardInfo .tituloStatus p {
+    font-size: 0.77em;
+    margin-bottom: 10px;
+}
+
+.cardInfo .localizacao .ultima {
+    color: #777;
+    font-size: 0.77em;
+}
+
+.cardInfo .localizacao .local {
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cardInfo .capitulo .visto {
+    color: #777;
+    font-size: 0.77em;
+}
+
+.cardInfo .capitulo .nome {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+hr {
+    border-color: #59ff5c81;
+    width: 1000px;
+    margin: 60px 0;
+}
+
+.rickAndMorty {
+    width: 380px;
+    margin-top: 30px;
+    align-self: center;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2921;
+}
+
+footer nav {
+    margin: 70px 0 80px 0;
+}
+
+footer nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #777;
+    font-size: 0.8em;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+footer small {
+    color: #777;
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+footer small a {
+    color: #fff;
+    text-decoration: none;
+}
